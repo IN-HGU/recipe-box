@@ -1,0 +1,101 @@
+/* 리뷰 페이지 전체 */
+.review-page {
+  width: 85%;
+  margin: 30px auto;
+  padding: 20px;
+  background-color: white;
+  color: #263746;
+  border: 1px solid #c5e5f7;
+}
+
+/* 메뉴 이름 */
+.review-page h2 {
+  margin: 20px 0;
+  color: #245b7a;
+  font-size: 28px;
+}
+
+/* 리뷰 목록과 작성 영역 제목 */
+.review-page h3 {
+  margin: 25px 0 15px;
+  padding: 10px;
+  background-color: #eaf6ff;
+  color: #245b7a;
+  font-size: 20px;
+}
+
+/* 설명과 리뷰 내용 */
+.review-page p {
+  margin: 10px 0;
+  font-size: 16px;
+}
+
+/* 뒤로가기와 등록 버튼 */
+.review-page button {
+  padding: 10px 20px;
+  background-color: #d6efff;
+  color: #245b7a;
+  border: 1px solid #a8d4ef;
+  font-size: 16px;
+}
+
+/* 리뷰 목록 */
+.review-list {
+  margin: 0;
+  padding: 0;
+}
+
+/* 리뷰 한 개 */
+.review-item {
+  display: block;
+  margin: 15px 0;
+  padding: 15px;
+  background-color: #f2faff;
+  border: 1px solid #c5e5f7;
+}
+
+/* 리뷰 작성 영역 */
+.review-form {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #c5e5f7;
+}
+
+/* 별점과 리뷰 내용 라벨 */
+.review-form label {
+  display: block;
+  margin: 15px 0;
+  color: #245b7a;
+  font-size: 16px;
+}
+
+/* 별점 선택 */
+.review-form select {
+  display: block;
+  width: 120px;
+  margin: 10px 0;
+  padding: 8px;
+  background-color: #f2faff;
+  color: #263746;
+  border: 1px solid #a8d4ef;
+  font-size: 16px;
+}
+
+/* 리뷰 입력창 */
+.review-form textarea {
+  display: block;
+  width: 90%;
+  margin: 10px 0;
+  padding: 10px;
+  background-color: white;
+  color: #263746;
+  border: 1px solid #a8d4ef;
+  font-size: 16px;
+}
+
+/* 입력 오류 안내 */
+.review-page .review-error {
+  color: #b42318;
+  font-size: 14px;
+}
